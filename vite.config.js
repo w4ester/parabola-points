@@ -1,7 +1,4 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
 export default defineConfig({
   plugins: [react()],
-  base: '/parabola-points/'
+  base: https://github.com/w4ester/parabola-points  // This should match your repository name exactly
 })
